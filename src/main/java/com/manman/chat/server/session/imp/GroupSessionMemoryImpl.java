@@ -6,11 +6,15 @@ import com.manman.chat.server.session.SessionFactory;
 import io.netty.channel.Channel;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 public class GroupSessionMemoryImpl implements GroupSession {
+    private final Map<String, Group> groupMap = new ConcurrentHashMap<>();
+
     @Override
     public Group createGroup(String name, Set<String> members) {
         return null;

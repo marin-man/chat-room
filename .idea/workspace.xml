@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c14fa7e-2b00-44ec-81d2-90cc98d33c1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/handler/GroupChatRequestMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/handler/GroupChatRequestMessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/handler/GroupCreateRequestMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/handler/GroupCreateRequestMessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/handler/LoginRequestMessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/handler/LoginRequestMessageHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/ChatResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/ChatResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupChatRequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupChatRequestMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupChatResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupChatResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupCreateRequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupCreateRequestMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupCreateResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupCreateResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupJoinRequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupJoinRequestMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupJoinResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupJoinResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupMembersRequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupMembersRequestMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupMembersResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupMembersResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupQuitRequestMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupQuitRequestMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupQuitResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupQuitResponseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/GroupreateResponseMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/message/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/server/service/UserServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/server/service/UserServiceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/server/session/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/server/session/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/server/session/GroupSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/server/session/GroupSessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/manman/chat/server/session/SessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/manman/chat/server/session/SessionFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +55,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629814408319</updated>
-      <workItem from="1629814411554" duration="1820000" />
+      <workItem from="1629814411554" duration="2716000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1629818303415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1629818303415" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1629818303415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1629818303415" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1629818303414">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1629818303414" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1629818303415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1629818303415" />
   </component>
 </project>
