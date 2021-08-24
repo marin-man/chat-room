@@ -28,6 +28,6 @@ public class GroupCreateRequestMessageHandler extends SimpleChannelInboundHandle
             }
             channelHandlerContext.writeAndFlush(new GroupCreateResponseMessage(true, groupName + "创建成功"));
         } else
-            channelHandlerContext.writeAndFlush(new GroupCreateResponseMessage(falsse, groupName + "已经存在"));
+            channelHandlerContext.writeAndFlush(new GroupCreateResponseMessage(false, groupName + "已经存在"));
     }
 }

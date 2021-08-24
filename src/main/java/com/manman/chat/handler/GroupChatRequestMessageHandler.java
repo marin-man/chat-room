@@ -1,6 +1,7 @@
 package com.manman.chat.handler;
 
 import com.manman.chat.message.GroupChatRequestMessage;
+import com.manman.chat.message.GroupChatResponseMessage;
 import com.manman.chat.server.session.GroupSessionFactory;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandler;
@@ -17,7 +18,7 @@ public class GroupChatRequestMessageHandler extends SimpleChannelInboundHandler<
                 .getMembersChannel(groupChatRequestMessage.getGroupName());
 
         for (Channel channel : channels) {
-            channel.writeAndFlush(new GroupChatRequestMessage(groupChatRequestMessage.getFrom(), msg.getContent()));
+            channel.writeAndFlush(new GroupChatResponseMessage(groupChatRequestMessage.getFrom(), groupChatRequestMessage.getContent()));
         }
     }
 }
