@@ -15,7 +15,7 @@ public class LoginRequestMessageHandler extends SimpleChannelInboundHandler<Logi
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, LoginRequestMessage loginRequestMessage) throws Exception {
         String username = loginRequestMessage.getUsername();
         String password = loginRequestMessage.getPassword();
-        boolean login = UserServiceFactory.getUserService.login(username, password);
+        boolean login = UserServiceFactory.getUserService().login(username, password);
         LoginResponseMessage message;
         if (login) {
             SessionFactory.getSession().bind(channelHandlerContext.channel(), username);

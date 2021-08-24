@@ -1,4 +1,12 @@
 package com.manman.chat.server.session;
 
-public class SessionFactory {
+import com.manman.chat.server.session.imp.SessionMemoryImpl;
+
+public abstract class SessionFactory {
+
+    private static Session session = new SessionMemoryImpl();
+
+    public static Session getSession() {
+        return session;
+    }
 }
